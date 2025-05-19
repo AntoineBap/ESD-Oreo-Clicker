@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className="game-container">
-      <img className="logo-esd" src="/esd-logo.svg" alt="logo ESD" />
+      <img className="logo-esd" src="https://res.cloudinary.com/antoinebaptista/image/upload/v1747663518/esd-logo_gl6ifi.svg" alt="logo ESD" />
       <div
         className={
           goldenBackground
@@ -33,7 +33,7 @@ function App() {
           >
             <img
               className="counter-img"
-              src="/esd-oreo-small.png"
+              src="https://res.cloudinary.com/antoinebaptista/image/upload/v1747663518/esd-oreo-small_ezhrbj.png"
               alt="small oreo"
             />
             <p>{count}</p>
@@ -75,7 +75,7 @@ function App() {
               >
                 <img
                   className="upgrade-img"
-                  src="/esd-oreo-small.png"
+                  src="https://res.cloudinary.com/antoinebaptista/image/upload/v1747663518/esd-oreo-small_ezhrbj.png"
                   alt="small oreo"
                 />
                 <span>{upgradesCost[upgradeLvl]}</span>
@@ -105,7 +105,7 @@ function App() {
                   setCount((count) => count - 1000);
                 }}
               >
-                <img src="/esd-oreo-small.png" alt="small oreo" />
+                <img src="https://res.cloudinary.com/antoinebaptista/image/upload/v1747663518/esd-oreo-small_ezhrbj.png" alt="small oreo" />
                 1000
               </button>
             )}
@@ -128,7 +128,7 @@ function App() {
                   setCount((count) => count - 2500);
                 }}
               >
-                <img src="/esd-oreo-small.png" alt="small oreo" />
+                <img src="https://res.cloudinary.com/antoinebaptista/image/upload/v1747663518/esd-oreo-small_ezhrbj.png" alt="small oreo" />
                 2500
               </button>
             )}
@@ -151,7 +151,7 @@ function App() {
                   setCount((count) => count - 5000);
                 }}
               >
-                <img src="/esd-oreo-small.png" alt="small oreo" />
+                <img src="https://res.cloudinary.com/antoinebaptista/image/upload/v1747663518/esd-oreo-small_ezhrbj.png" alt="small oreo" />
                 5000
               </button>
             )}
